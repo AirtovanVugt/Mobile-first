@@ -1,0 +1,175 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Archivo', sans-serif;
+}
+
+.container{
+	position: relative;
+}
+
+header{
+	background-color: yellow;
+	height: 76px;
+}
+
+header > ul > li{
+	display: none;
+}
+
+header > i{
+	font-size: 26px;
+	color: white;
+	border: solid 1px;
+	padding: 10px;
+	margin-top: 14px;
+	margin-left: 50px;
+}
+
+nav{
+	height: 0px;
+	overflow: hidden;
+	transition: 0.4s ease;
+}
+
+nav > ul > li:hover{
+	background-color: yellow;
+}
+
+nav > ul > li > a{
+	color: white;
+	text-decoration: none;
+	line-height: 2rem;
+	margin-left: 15vw;
+	display: inline-block;
+}
+
+.ruimte{
+	margin: 2vw 0vw;
+}
+
+.menuzien{
+	height: 160px;
+	background-color: gray;
+}
+
+.logo{
+	margin: 10px 0px;
+}
+
+.logo > img{
+	margin-left: 54vw;
+	width: 32vw;
+}
+
+.zoek{
+	display: none;
+}
+
+.banner > img{
+	width: 100%;
+	height: 35vh;
+}
+
+.tien{
+	margin: 10vw 10vw;
+}
+
+.tien > h2{
+	font-size: 2rem;
+}
+
+.tien > p{
+	font-size: 1.1rem;
+}
+
+.filmpje > img{
+	margin: 0% 10%;
+	width: 80%;
+}
+
+button{
+	background-color: gold;
+	height: 10vh;
+	width: 100%;
+  	border: none;
+  	font-size: 2rem;
+  	cursor: pointer;
+}
+
+footer{
+	height: 3vw;
+	background-color: yellow;
+	display: flex;
+	align-items: center;
+}
+
+footer > p{
+	margin-left: 45%;
+}
+
+@media screen and (min-width: 576px){
+
+	header{
+		height: 32px;
+		display: flex;
+		align-items: center;
+	}
+
+	header > ul > li:nth-of-type(1){
+		padding-left: 32vw;
+	}
+
+	header > ul > li{
+		display: inline;
+		padding-left: 3vw;
+		padding-top: 5px;
+	}
+
+	#klikicoon{
+		display: none;
+	}
+
+	.kleine-container{
+		display: flex;
+		align-items: center;
+	}
+
+	.logo > img{
+		margin-left: 5vw;
+	}
+
+	.zoek{
+		display: inline-block;
+	}
+
+	.zoek > ul > li{
+		display: inline;
+		margin-left: 1rem;
+	}
+
+	.zoek > ul > li > a{
+		color: black;
+		text-decoration: none;
+	}
+
+	.banner > img{
+		height: 70vh;
+	}
+
+	.drieblokken{
+		display: flex;
+	}
+
+	.tien{
+		margin: 2vw 2vw;
+	}
+
+	.linkerwand{
+		margin-left: 10vw;
+	}
+
+	.rechterwand{
+		margin-right: 10vw;
+	}
+}
